@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+# datasets are NOT redistributable (MVTec-AD is CC BY-NC-SA 4.0) - never commit them
+data/
+mvtec_anomaly_detection/
+*.tar.xz
+*.zip
+# big cached score maps; keep only the small summary json/csv/png
+results/raw/
+*.npz
+*.pt
+*.pth
+.DS_Store

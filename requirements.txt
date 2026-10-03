@@ -1,0 +1,11 @@
+torch>=2.0
+torchvision
+open_clip_torch>=2.24
+numpy
+scipy
+scikit-learn
+scikit-image
+pillow
+tqdm
+matplotlib
+pandas
