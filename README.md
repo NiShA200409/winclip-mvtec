@@ -23,10 +23,10 @@ python run_mvtec.py    --data_root ... --shots 1 --modes lang vis fused
 ## Results (MVTec-AD, mean of 15 classes; few-shot = mean of 5 seeds)
 | Setting | AC AUROC | AS pAUROC | Paper AC | Paper AS |
 |---|---|---|---|---|
-| 0-shot WinCLIP | _fill_ | _fill_ | 91.8 | 85.1 |
-| 1-shot WinCLIP+ | _fill_ | _fill_ | 93.1 | 95.2 |
-| 2-shot WinCLIP+ | _fill_ | _fill_ | 94.4 | 96.0 |
-| 4-shot WinCLIP+ | _fill_ | _fill_ | 95.2 | 96.2 |
+| 0-shot WinCLIP | 90.6 | 84.3 | 91.8 | 85.1 |
+| 1-shot WinCLIP+ | 92.2 | 93.3 | 93.1 | 95.2 |
+| 2-shot WinCLIP+ | 93.7 | _fill_ | 93.8 | 96.0 |
+| 4-shot WinCLIP+ | 94.9 | _fill_ | 94.2 | 96.2 |
 
 ## Known differences from the paper
 - Prompt word lists adapted from public re-implementations (paper's supplementary lists not copied verbatim).
